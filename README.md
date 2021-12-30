@@ -2,7 +2,7 @@
 
 ### A Vanilla JavaScript password generator, with a modern design with several features.
 
-![presentation_image](generator.png)
+![presentation_image](image.png)
 
 ## INSTALLATION
 
