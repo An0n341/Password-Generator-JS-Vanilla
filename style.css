@@ -1,0 +1,122 @@
+/*Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*reset*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/*variable*/
+
+:root{
+    --body-color: #1d3557;
+    --purple-color: #457b9d;
+}
+
+/*default*/
+
+body{
+    background-color: var(--body-color);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*code*/
+
+.containet-all{
+    width: 400px;
+    height: auto;
+    background-color: var(--purple-color);
+    color: #f1faee;
+    border-radius: 5px;
+    box-shadow: 0 0px 5px rgb(255, 255, 255, .1);
+}
+
+.container-head{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-pass{
+    width: 350px;
+    height: 50px;
+    background-color: var(--body-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.bi-clipboard-check{
+    font-size: 1.5rem;
+    background-color: var(--purple-color);
+    padding: 11px;
+    cursor: pointer;
+    display: none;
+}
+
+#password{
+    padding-left: 10px;
+    font-size: 1.2rem;
+    color: #f1faee;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+}
+
+#length{
+    width: 50px;
+}
+
+label{
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+input{
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.btn-generate-pass{
+    width: 350px;
+    height: 50px;
+    background-color: var(--body-color);
+    border-radius: 5px;
+    border: none;
+    color: #f1faee;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.containet-button{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containter-settings{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="containet-all">
+        <!--display password-->
+        <div class="container-head">
+            <div class="display-pass">
+                <span id="password">
+                        
+                </span>
+                <i class="bi bi-clipboard-check"></i>
+            </div>
+        </div>
+            <!--all seggints-->
+            <div class="containter-settings">
+                <!--Length settings-->
+                <div class="length">
+                    <form>
+                        <label for="length">Password Length</label>
+                        <input type="number" id="length" min="1" max="20" value="5">
+                    </form>
+                </div>
+                <!--upper letter-->
+                <div class="upper">
+                    <form id="upper-btn">
+                        <label for="upper-letter">Contain Uppercase Letters</label>
+                        <input type="checkbox" id="upper-letter">
+                    </form>
+                </div>
+                <!--lower letter-->
+                <div class="lower">
+                    <form id="lower-btn">
+                        <label for="lower-letter">Contain Lowercase Letters</label>
+                        <input type="checkbox" id="lower-letter">
+                    </form>
+                </div>
+                <!--add numbers-->
+                <div class="number">
+                    <form id="number-btn">
+                        <label for="add-number">Contain Numbers</label>
+                        <input type="checkbox" id="add-number">
+                    </form>
+                </div>
+                <!--Add symbol-->
+                <div class="symbol">
+                    <form id="symbol-btn">
+                        <label for="add-symbol">Contain Symbol</label>
+                        <input type="checkbox" id="add-symbol">
+                    </form>
+                </div>
+            </div>
+            <!--Generate button-->
+            <div class="containet-button">
+                <button class="btn-generate-pass">Generate Password</button>
+            </div>
+        </div>
+
+
+<script src="main.js"></script>
+<script src="animation.js"></script>
+</body>
+</html>
