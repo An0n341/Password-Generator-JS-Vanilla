@@ -18,4 +18,4 @@ This password generator has several features: choose the length of the password 
 
 ## LICENSE
 
-LICENSE: [GNU General Public License v3](LICENSE)
+This program is distributed under the license [GNU General Public License v3](LICENSE), please read the license for information on program distribution and availability.
