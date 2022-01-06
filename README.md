@@ -1,4 +1,4 @@
-# Sign & Signup PHP
+# Password Generator in JS Vanilla
 
 ### A Vanilla JavaScript password generator, with a modern design with several features.
 
